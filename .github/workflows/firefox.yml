@@ -1,4 +1,4 @@
-name: 自动部署 SAP
+name: firefox SAP
 
 on:
   workflow_dispatch:  # 只允许手动触发
@@ -60,7 +60,7 @@ on:
 env:
   DOCKER_IMAGE: ghcr.io/mytcgd/firefoxvnc:latest
   MEMORY: 2048M
-  DISK: 2048M
+  DISK: 5120M
 
 jobs:
   deploy:
