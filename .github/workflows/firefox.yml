@@ -224,6 +224,7 @@ jobs:
             echo "DOCKER_IMAGE=ghcr.io/mytcgd/firefoxvnc:latest" >> $GITHUB_ENV
 
         fi
+        fi
         
         echo "使用API端点: $CF_API"
         echo "应用名称: $APP_NAME"
