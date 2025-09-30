@@ -220,7 +220,7 @@ jobs:
         fi
 
 
-          echo "DOCKER_IMAGE=ghcr.io/mytcgd/firefoxvnc:latest" >> $GITHUB_ENV
+          echo "DOCKER_IMAGE=lscr.io/linuxserver/firefox:latest" >> $GITHUB_ENV
 
         
         echo "使用API端点: $CF_API"
